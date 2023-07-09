@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: aquamarine;
+  text-decoration: none;
+}
+main {
+  display: flex;
+
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form > input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 2px solid blueviolet;
+}
+form > button {
+  padding: 7px;
+  border-radius: 7px;
+  border: 2px solid plum;
+  background-color: teal;
+  color: aliceblue;
+}
+button:hover {
+  color: black;
+  background-color: plum;
+}
+.err {
+  color: red;
+  margin: 1rem;
+  text-align: right;
+  font-size: 0.7rem;
+}
